@@ -57,7 +57,7 @@ My next step is to check for missing values and duplicates.
 
 transactions <- transactions %>%  drop_na()
 
-transactions_unique <- transactions %>% 
+transactions <- transactions %>% 
   distinct()
 
 ```
